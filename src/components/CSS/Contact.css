@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+*{
+    font-family: 'Outfit', sans-serif;
+   
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.contacform{
+    width: 50%;
+    background-color: #dcddc1;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(194, 188, 188);;
+    background-size: cover;
+    border-radius: 0.5%;
+}
+.contactinpit{
+    background-color:transparent !important;
+    border:solid 2px rgb(0, 0, 0)!important;
+    color: rgb(0, 0, 0)!important;
+}
+.contactinpit::placeholder{
+
+    color: rgb(0, 0, 0)!important;
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+.pditem{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Outfit', sans-serif;
+
+}
+.Card{
+    height: 45  0px;
+    overflow: hidden;
+}
+.pdCbody{
+    background-color: #6ce56f;
+}
+.Image{
+    height: 250px;
+
+}
+.item:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+.pdCardTitle{
+    height: 70px;
+}
+.CardPrice{
+    height: 50px;
+}
+.pdaddToCart{
+    margin-top: 10px;
+    width: auto;
+    margin-left: 24%;
+}
+@media only screen and (max-width: 414px){
+    .pdCbody{
+        height: 204px;
+    }
+    /* .CardTitletxt{
+        font-size: 1px ;
+    } */
+    .pdaddToCart{
+       /* font-size: 12px !important; */
+       margin-top: 0px;
+       width: 90%;
+       margin-left: 0%;
+    }
+    .itempagerow{
+        justify-content: center;
+    }
+    .itempagerow>*{
+        flex: 0 0 70% !important;
+        max-width: 100% !important;
+    }
+  }

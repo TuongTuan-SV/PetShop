@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+.Footer{
+    background:rgb(26, 148, 255); 
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+.footer-item{
+    list-style: none;
+    cursor: pointer;
+    position: "fixed";
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background: white;
+}
+.footer li:hover{
+    color: chartreuse;
+} 
+ @media only screen and (max-width: 414px){
+    .Footer{
+        font-size: 10px;
+    }
+    .Footerow>*{
+            flex: 0 0 45% !important;
+            max-width: 50% !important;
+
+    }
+  }

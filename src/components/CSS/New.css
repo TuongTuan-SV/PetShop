@@ -1,0 +1,49 @@
+.cardcontainer{
+    height: 500px;
+    cursor: pointer;
+}
+.newimg{
+    height: 50%;
+}
+.newtext{
+    height: 50%;
+}
+.newimg img{ 
+    width: 100%; /* width of container */
+    height: 100%; /* height of container */
+    object-fit: cover;
+}
+@media only screen and (max-width: 1024px){
+    .Newrow>*{
+        flex: 50% !important;
+        max-width: 50% !important;
+    }
+    .Newtitle{
+        font-size: 18px !important;
+        overflow: hidden;
+    }
+    .newtext{
+        overflow: hidden;
+        font-size: 16px;
+    }
+    .newdate{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .cardcontainer{
+        height: 350px;
+    }
+    .Newrow>*{
+        flex: 70% !important;
+        max-width: 50% !important;
+    }
+    .Newtitle{
+        font-size: 10px !important;
+        overflow: hidden;
+    }
+    .newtext{
+        overflow: hidden;
+        font-size: 8px !important;
+    }
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+.MyHeader{
+    height: fit-content;
+    padding: 30px;
+    font-size: 18px;
+    background: rgb(26, 148, 255);
+    font-family: 'Outfit', sans-serif;
+}
+.HLink{
+    text-decoration: none;
+    color: rgb(255, 255, 255) ;
+
+}
+.HLink:hover{
+    text-decoration: none ;
+    
+}
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+.title:hover{
+    color: red;
+}
+.Nav{
+    padding-top: 20px;
+}
+.Leftside {
+    cursor: pointer;
+    margin-left: auto;
+}
+.Login,.Cart,.SearchBar {
+    padding-right: 30px ;
+}
+/* .Cart{
+    margin: 10px;
+} */
+.LoginIcon{
+    background: transparent;
+    border: transparent;
+}
+.counter{
+    position: relative;
+    bottom: 41px;
+    left: 34px;
+}
+@media only screen and (max-width: 1024px){
+    .Leftside{
+        display: flex;
+    }
+  }
+  @media only screen and (max-width: 414px){
+    .MyHeader{
+        font-size: 15px;
+    }
+    .Headerlink{
+        flex-direction: row !important;
+    }
+    .HLink{
+        margin-left: 5px;
+    }
+    .Leftside{
+        display: contents;
+    }
+  }

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+.prodcutpage{
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+}
+.listitem{
+    height: 100%;
+    width: 210px;
+}
+.header{
+    margin-left: 10px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+}
+.listitem ul{
+    padding-left: 0px;
+    cursor: pointer;
+    list-style: none;
+}
+.listitem ul li{
+    padding-top: 12px;
+    padding-bottom:  12px;
+    margin-left: 5px;
+}
+.listitem ul li:hover{
+    background: rgb(232, 225, 225);
+}
+.Link{
+    text-decoration: none;
+    color: black;
+}
+.Link:hover{
+    text-decoration: none;
+    color: red;
+}
+@media only screen and (max-width: 414px){
+    .listitem{
+        width: 800px !important;
+        padding: 0;
+    }
+ 
+    .header{
+        font-size: 15px;
+    }
+}
