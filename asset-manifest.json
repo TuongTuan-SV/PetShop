@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "./static/css/main.be20c0aa.chunk.css",
+    "main.js": "./static/js/main.3a52daf8.chunk.js",
+    "main.js.map": "./static/js/main.3a52daf8.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.451ea626.js",
+    "runtime-main.js.map": "./static/js/runtime-main.451ea626.js.map",
+    "static/css/2.081f420c.chunk.css": "./static/css/2.081f420c.chunk.css",
+    "static/js/2.6dc35aee.chunk.js": "./static/js/2.6dc35aee.chunk.js",
+    "static/js/2.6dc35aee.chunk.js.map": "./static/js/2.6dc35aee.chunk.js.map",
+    "static/js/3.2422a469.chunk.js": "./static/js/3.2422a469.chunk.js",
+    "static/js/3.2422a469.chunk.js.map": "./static/js/3.2422a469.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.081f420c.chunk.css.map": "./static/css/2.081f420c.chunk.css.map",
+    "static/css/main.be20c0aa.chunk.css.map": "./static/css/main.be20c0aa.chunk.css.map",
+    "static/js/2.6dc35aee.chunk.js.LICENSE.txt": "./static/js/2.6dc35aee.chunk.js.LICENSE.txt",
+    "static/media/1.d0b99cc7.jpg": "./static/media/1.d0b99cc7.jpg",
+    "static/media/1.f437260c.jpg": "./static/media/1.f437260c.jpg",
+    "static/media/2.086a14f3.png": "./static/media/2.086a14f3.png",
+    "static/media/2.96b468cd.jpg": "./static/media/2.96b468cd.jpg",
+    "static/media/3.70726b1c.jpg": "./static/media/3.70726b1c.jpg",
+    "static/media/3.7aaf856e.jpg": "./static/media/3.7aaf856e.jpg",
+    "static/media/4.25a5d7bc.jpeg": "./static/media/4.25a5d7bc.jpeg",
+    "static/media/4.d9191a70.jpg": "./static/media/4.d9191a70.jpg",
+    "static/media/5.602f8572.jpg": "./static/media/5.602f8572.jpg",
+    "static/media/6.c57ce363.png": "./static/media/6.c57ce363.png",
+    "static/media/Product1.d454b4aa.png": "./static/media/Product1.d454b4aa.png",
+    "static/media/Product1.f04209ed.png": "./static/media/Product1.f04209ed.png",
+    "static/media/Product2.2c704b98.png": "./static/media/Product2.2c704b98.png",
+    "static/media/Product2.5b3df6ff.png": "./static/media/Product2.5b3df6ff.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.451ea626.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.6dc35aee.chunk.js",
+    "static/css/main.be20c0aa.chunk.css",
+    "static/js/main.3a52daf8.chunk.js"
+  ]
+}
